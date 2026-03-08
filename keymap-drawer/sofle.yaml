@@ -1,7 +1,68 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', +, CAPSLOCK, Q, W, E, R, T, Y, U, I, O, P, _, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT GUI,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LEFT SHIFT, LALT, LCTRL, lower, SPACE, ENTER, raise, BACKSPACE, DELETE, '?']
+    Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, RSHFT, LEFT SHIFT, LALT, LCTRL, lower, SPACE, ENTER, raise, BACKSPACE, DELETE, '?']
+  raise:
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INS
+  - UP ARROW
+  - CMENU
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PG UP
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
+  - {t: ▽, type: trans}
+  - CLCK
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - DEL
+  - BSPC
+  - {t: ▽, type: trans}
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - PLAY PAUSE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   lower:
   - ESC
   - '!'
@@ -60,67 +121,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - DEL
-  - BSPC
-  - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
